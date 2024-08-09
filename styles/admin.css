@@ -1,0 +1,60 @@
+main {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4a3d;
+}
+#account-approval {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.approval-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.approve-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.approve-button:hover {
+    background-color: #45a049;
+}
+
